@@ -79,7 +79,7 @@
 
         layer_SHIFT {
             bindings = <
- &trans  &kp LS(N1)  &kp DOUBLE_QUOTES    &kp LS(N3)     &kp LS(N4)  &kp LS(N5)                   &trans                                                                                          &trans  &kp RS(N6)  &kp SINGLE_QUOTE     &kp RS(N9)        &kp RS(N0)            &none     &kp EQUAL
+ &trans  &kp LS(N1)  &kp DOUBLE_QUOTES    &kp LS(N3)     &kp LS(N4)  &kp LS(N5)                   &trans                                                                                          &trans  &kp RS(N7)  &kp SINGLE_QUOTE     &kp RS(N9)        &kp RS(N0)            &none     &kp EQUAL
  &trans   &kp LS(Q)          &kp LS(W)     &kp LS(E)      &kp LS(R)   &kp LS(T)                   &trans                                                                                          &trans   &kp RS(Y)         &kp RS(U)      &kp RS(I)         &kp RS(O)        &kp RS(P)      &kp PIPE
  &trans   &kp LS(A)          &kp LS(S)     &kp LS(D)      &kp LS(F)   &kp LS(G)                    &mo 5         &trans          &trans                             &trans         &trans          &mo 5   &kp RS(H)         &kp RS(J)      &kp RS(K)         &kp RS(L)         &kp PLUS  &kp ASTERISK
  &trans   &kp LS(Z)          &kp LS(X)     &kp LS(C)      &kp LS(V)   &kp LS(B)                   &trans         &trans  &kp UNDERSCORE  &trans  &trans     &kp RS(DELETE)         &trans         &trans   &kp RS(N)         &kp RS(M)  &kp LESS_THAN  &kp GREATER_THAN     &kp QUESTION        &trans

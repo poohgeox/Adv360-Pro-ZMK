@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESCAPE     &kp N1       &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                              &mo 3  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0      &kp MINUS
- &kp LEFT_WIN      &kp Q        &kp W     &kp E      &kp R   &kp T            &kp LEFT_ALT                                                                      &kp RIGHT_ALT   &kp Y   &kp U      &kp I     &kp O     &kp P  &kp BACKSLASH
-        &none      &kp A        &kp S     &kp D      &kp F   &kp G                   &mo 2      &mo 4  &kp LA(GRAVE)                         &kp F7      &mo 4          &mo 2   &kp H   &kp J      &kp K     &kp L  &kp SEMI      &kp COLON
-    &kp LSHFT      &kp Z        &kp X     &kp C      &kp V   &kp B                   &none      &none  &kp BACKSLASH   &none   &none     &kp DELETE      &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH      &kp RSHFT
-        &none  &kp CARET  &kp AT_SIGN  &kp LEFT  &kp RIGHT                       &kp LCTRL  &kp SPACE        &kp TAB                  &kp BACKSPACE  &kp RCTRL      &kp ENTER          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT          &none
+   &kp ESCAPE     &kp N1       &kp N2  &kp N3    &kp N4  &kp N5                  &tog 1                                                                              &mo 3  &kp N6    &kp N7     &kp N8    &kp N9    &kp N0      &kp MINUS
+ &kp LEFT_WIN      &kp Q        &kp W   &kp E     &kp R   &kp T            &kp LEFT_ALT                                                                      &kp RIGHT_ALT   &kp Y     &kp U      &kp I     &kp O     &kp P  &kp BACKSLASH
+        &none      &kp A        &kp S   &kp D     &kp F   &kp G                   &mo 2      &mo 4  &kp LA(GRAVE)                         &kp F7      &mo 4          &mo 2   &kp H     &kp J      &kp K     &kp L  &kp SEMI      &kp COLON
+    &kp LSHFT      &kp Z        &kp X   &kp C     &kp V   &kp B                   &none      &none  &kp BACKSLASH   &none   &none     &kp DELETE      &none          &none   &kp N     &kp M  &kp COMMA   &kp DOT  &kp FSLH      &kp RSHFT
+        &none  &kp CARET  &kp AT_SIGN  &kp UP  &kp DOWN                       &kp LCTRL  &kp SPACE        &kp TAB                  &kp BACKSPACE  &kp RCTRL      &kp ENTER          &kp LEFT  &kp RIGHT  &kp LBKT  &kp RBKT          &none
             >;
         };
 
@@ -79,11 +79,11 @@
 
         layer_SHIFT {
             bindings = <
- &trans  &kp LS(N1)  &kp DOUBLE_QUOTES    &kp LS(N3)     &kp LS(N4)  &kp LS(N5)                   &trans                                                                                          &trans  &kp RS(N7)  &kp SINGLE_QUOTE     &kp RS(N9)        &kp RS(N0)            &none     &kp EQUAL
- &trans   &kp LS(Q)          &kp LS(W)     &kp LS(E)      &kp LS(R)   &kp LS(T)                   &trans                                                                                          &trans   &kp RS(Y)         &kp RS(U)      &kp RS(I)         &kp RS(O)        &kp RS(P)      &kp PIPE
- &trans   &kp LS(A)          &kp LS(S)     &kp LS(D)      &kp LS(F)   &kp LS(G)                    &mo 5         &trans          &trans                             &trans         &trans          &mo 5   &kp RS(H)         &kp RS(J)      &kp RS(K)         &kp RS(L)         &kp PLUS  &kp ASTERISK
- &trans   &kp LS(Z)          &kp LS(X)     &kp LS(C)      &kp LS(V)   &kp LS(B)                   &trans         &trans  &kp UNDERSCORE  &trans  &trans     &kp RS(DELETE)         &trans         &trans   &kp RS(N)         &kp RS(M)  &kp LESS_THAN  &kp GREATER_THAN     &kp QUESTION        &trans
- &trans   &kp TILDE          &kp GRAVE  &kp LS(LEFT)  &kp LS(RIGHT)                        &kp LS(LCTRL)  &kp LS(SPACE)     &kp LS(TAB)                  &kp RS(BACKSPACE)  &kp RS(RCTRL)  &kp RS(ENTER)                    &kp RS(UP)   &kp RS(DOWN)    &kp LEFT_BRACE  &kp RIGHT_BRACE        &trans
+ &trans  &kp LS(N1)  &kp DOUBLE_QUOTES  &kp LS(N3)    &kp LS(N4)  &kp LS(N5)                   &trans                                                                                           &trans  &kp AMPERSAND  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS            &none     &kp EQUAL
+ &trans   &kp LS(Q)          &kp LS(W)   &kp LS(E)     &kp LS(R)   &kp LS(T)                   &trans                                                                                           &trans      &kp RS(Y)         &kp RS(U)             &kp RS(I)              &kp RS(O)        &kp RS(P)      &kp PIPE
+ &trans   &kp LS(A)          &kp LS(S)   &kp LS(D)     &kp LS(F)   &kp LS(G)                    &mo 5  &kp LEFT_SHIFT          &trans                             &trans         &trans          &mo 5      &kp RS(H)         &kp RS(J)             &kp RS(K)              &kp RS(L)         &kp PLUS  &kp ASTERISK
+ &trans   &kp LS(Z)          &kp LS(X)   &kp LS(C)     &kp LS(V)   &kp LS(B)                   &trans          &trans  &kp UNDERSCORE  &trans  &trans     &kp RS(DELETE)         &trans         &trans      &kp RS(N)         &kp RS(M)         &kp LESS_THAN       &kp GREATER_THAN     &kp QUESTION        &trans
+ &trans   &kp TILDE          &kp GRAVE  &kp LS(UP)  &kp LS(DOWN)                        &kp LS(LCTRL)   &kp LS(SPACE)     &kp LS(TAB)                  &kp RS(BACKSPACE)  &kp RS(RCTRL)  &kp RS(ENTER)                     &kp RS(LEFT)         &kp RS(RIGHT)         &kp LEFT_BRACE  &kp RIGHT_BRACE        &trans
             >;
         };
 
